@@ -1,0 +1,28 @@
+<div class="text-center">
+  <h2 class="custom-post-title-post">{{title}}</h2>
+  <p>{{description}}</p>
+  <p>Posted by {{user.username}} on {{format_date post_date}}</p>
+
+  {{#each comments as |comment| }}
+
+  <div class="commentBox">
+    <div class="commentContents">
+    <h5 class="author">Comment posted by {{comment.user.username}} on {{format_date comment.post_date}}</h5>
+    <p class="commentText"> {{comment.response}}</p>
+        </div>
+  </div>
+  {{/each}}
+
+  <form class="form new-comment-form">
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea class="form-input" id="comment" name="comment"></textarea>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Post comment</button>
+      </div>
+    </form>
+
+
+
+<script src="../js/post.js"></script>
