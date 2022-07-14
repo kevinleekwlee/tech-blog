@@ -12,6 +12,10 @@ a {
   color: green
 }
 
+.text-right {
+  margin-right: 1%;
+}
+
 .title {
   text-align: center;
   background-color: #91ccec; 

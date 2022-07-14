@@ -27,5 +27,5 @@ This website can be accessed at
 
 Below are some screenshots of the deployed website. 
 
-![landing page](./public/assets/images/screenshot.PNG)
-![post page](./public/assets/images/screenshot2.PNG)
+![login page](./public/assets/images/screenshot.PNG)
+![dashboard](./public/assets/images/screenshot2.PNG)
